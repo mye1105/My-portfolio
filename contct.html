@@ -1,0 +1,73 @@
+<!DOCTYPE >
+<html>
+  <head>
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <h1>Contact Form</h1>
+
+    <form>
+      <div>
+        <label for="name">Name:</label>
+        <input type="name" name="name" required />
+      </div>
+      <br>
+
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" required />
+      </div>
+      <br>
+
+      <div>
+        <label for="message">Message:</label>
+        <textarea name="messgae" rows="4" cols="50"></textarea>
+      </div>
+      <br>
+
+      <div>
+        <label for="subject">Subject:</label>
+        <input type="subject" name="subject" />
+      </div>
+      <br>
+
+      <div>
+        <label for="phone">Phone:</label>
+        <input type="number" name="number" />
+      </div>
+      <br>
+
+      <div>
+        <label for="priority">Priority:</label>
+        <input type="radio" name="options" value="option1" />
+        <label for="option1">Low</label>
+        <input type="radio" name="options" value="option2" />
+        <label for="option2">Medium</label>
+        <input type="radio" name="options" value="option3" />
+        <label for="option3">High</label>
+        <!-- low, medium, high -->
+      </div>
+      <br>
+
+      <div>
+        <label>Newsletter Subscription:</label>
+        <input type="radio" name="options" value="option1" />
+        <label for="option1">Yes</label>
+        <input type="radio" name="options" value="option2" />
+        <label for="option2">No</label>
+      </div>
+      <br>
+
+      <div>
+        <label>Gender:</label>
+        <input type="checkbox"name='Gender' value="Gender">
+        <label for="Gender">Female</label>
+        <input type="checkbox"name='Gender' value="Gender">
+        <label for="Gender">Male</label>
+      </div>
+      <br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
