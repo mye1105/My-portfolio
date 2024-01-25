@@ -1,0 +1,134 @@
+.box-model{
+  background-color: pink;
+  border: solid black 5px;
+  margin-right: 20px;
+  margin-left: 15px;
+  padding: 40px;
+/* 1 value = all sides 
+
+    2 values = top and bottom, right and left
+
+    3 values = top, right and left, bottom
+
+    4 values = top, right, bottom, left
+
+    */
+    border-color: aqua;
+    border-width: 10px;
+    border-style: double;
+    border-left-style: solid;
+    border-right-color: darkblue;
+    border-radius: 15px;
+}
+.box-content{
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  background-color:aqua;
+  border: 2px black solid;
+  box-sizing: border-box;
+}
+.box-border{
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  background-color:blue;
+  box-sizing: border-box;
+}
+
+.block{
+  background-color: aquamarine;
+  display: black;
+  height: 100px;
+}
+.inline{
+  background-color: blue;
+  height: 100px;
+}
+.inline-block{
+  background-color: orange;
+  display: inline-block;
+  height: 100px;
+
+}
+.static{
+  position: static;
+  background-color: limegreen;
+  width: 200px;
+  height: 50px;
+  left: 80px;
+
+}
+.relative{
+  position: relative;
+  background-color: aquamarine;
+  width: 200px;
+  height: 50px;
+  left: 80px;
+  top: 10px;
+  
+}
+.absolute{
+  background-color: slateblue;
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  left: 80px;
+  top: 10px;
+}
+.fixed{
+  background-color: orange;
+  width: 200px;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  right: 0;
+
+}
+.sticky{
+  position: sticky;
+  background-color: skyblue;
+  top: 20px;
+  left: 200px;
+  width: 200px;
+  height: 50px
+  
+}
+/* Floats */
+.float-right{
+  width: 200px;
+  height: 100px;
+  background-color: indianred;
+  float: right;
+}
+.float-left{
+  width: 200px;
+  height: 100px;
+  background-color: peru;
+  float: left;
+}
+.clear-floats{
+  background-color: deeppink;
+  clear:left;
+}
+
+/* centering elements */
+.parent-box{
+  height: 200px;
+  width: 300px;
+  background-color: rebeccapurple;
+  margin: auto;
+}
+.center-vertical{
+  background-color: coral;
+  display: flex;
+  align-items: center;
+}
+.center-horizontal-vertical{
+  background-color: firebrick;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  
+}
